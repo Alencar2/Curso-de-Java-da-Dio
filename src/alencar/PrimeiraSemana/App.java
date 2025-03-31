@@ -1,7 +1,7 @@
 package alencar.PrimeiraSemana;
 public class App {
     public static void main(String[] args) throws Exception{
-        
+         
 
         final String BR = "Brasil";
         int ano = 2021;
