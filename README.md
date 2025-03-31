@@ -3,4 +3,4 @@ Trilha de aprendizagem que vai rolar diáriamente com atualizações
 
 Modificando na IDE, teste pra ver se ta atualizando no git!
 
-oxi
+oxi a
