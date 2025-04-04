@@ -23,6 +23,7 @@ public class App {
 
         int somar = somar(primeiroNumero, segundoNumero);
         System.out.println(somar);
+        
     }
     public static String nomeCompleto(String primeiroNome, String segundoNome) {
         return primeiroNome.concat(" ").concat(segundoNome);
