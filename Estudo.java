@@ -31,5 +31,21 @@ public class Estudo {
         }
         System.out.println("fim");
 
+        for (int carneirinhos = 1; carneirinhos <= 20; carneirinhos ++){
+            System.out.println("Contando carneirinhos " + carneirinhos);
+        }
+        // o indice de elementos em arrays o inicio sempre é 0
+        String alunos [] = {"Felipe", "Jonas", "Alencar", "Kauan"};
+
+        for (int x= 0; x < alunos.length; x++){
+            System.out.println("O aluno no indice x é: " + x + " é o " + alunos[x]);
+        }
+
+        for (String aluno : alunos){
+            System.out.println("Nome do aluno é " + aluno);
+        }
+
     }
+
+    
 }
