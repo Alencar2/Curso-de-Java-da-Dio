@@ -1,11 +1,14 @@
 package estudo.projeto.terceiro;
 
-
+import java.util.Scanner;
 
 public class contador {
     public  void main(String[] args) throws Exception{
+        Scanner scan = new Scanner(System.in);
+     int   parametroUm = scan.nextInt();
+     int   parametroDois = scan.nextInt();
         try {
-         contar (-5,10);
+         contar (parametroUm, parametroDois);
          System.out.println("tudo certo!" );
         } catch (InvalidoException e) {
             System.out.println("Erro o segundo parametro deve ser maior que o primeiro" );
